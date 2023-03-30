@@ -13,22 +13,21 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.js" integrity="sha512-klc+qN5PPscoGxSzFpetVsCr9sryi2e2vHwZKq43FdFyhSAa7vAqog/Ifl8tzg/8mBZiG2MAKhyjH5oPJp65EA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.8.3/angular-resource.js" integrity="sha512-HdD+nFlaO+1v1J/2lkX/tTAO4/xPrtx8mItmkkpXm48pRzQPMFfBof+clPLBaWdJBD5Qf8x+geQgMFUr5edyiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.js" integrity="sha512-tfrAMEcgRMbx1MeQrt2H/TrwaKG+m0ngUQ7R+hM9ZLD3SbwAvXsL1p0DwbTwv05EfES22HtfIged4iuHqmWYsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-color-picker/3.4.8/angularjs-color-picker.js" integrity="sha512-fSPq4g12RJ+Vxqw58AP52+APPrc8XPyv2uPPBkODzQK7Hon85xsFxuE0aWDepq9GjY0lryEg0tO0tmA3/r5Z2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.js" integrity="sha512-tfrAMEcgRMbx1MeQrt2H/TrwaKG+m0ngUQ7R+hM9ZLD3SbwAvXsL1p0DwbTwv05EfES22HtfIged4iuHqmWYsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-color-picker/3.4.8/angularjs-color-picker.js" integrity="sha512-fSPq4g12RJ+Vxqw58AP52+APPrc8XPyv2uPPBkODzQK7Hon85xsFxuE0aWDepq9GjY0lryEg0tO0tmA3/r5Z2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-datepicker/2.1.23/angular-datepicker.js" integrity="sha512-RLwBgjzqq3nMj/IVfUH0VqOOJkdXqHGDIXFAqP4U+D0Wkb1KYwzAZH3KnRsDU4d9PKALXxdf9DsLb71uMfu3lQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
   <script type="text/javascript" src="lib/script.js"></script>
   <script type="text/javascript">
     angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
   </script>
   <style>
-    
+
   </style>
 </head>
 
-<body ng-app="snHelper" ng-cloak>
+<body ng-app="snHelper">
   <div ng-controller="MainController">
-    <!-- <div ng-view></div>
- -->
+    <div ng-view></div>
     <hr />
 
     <pre>$location.path() = {{$location.path()}}</pre>
