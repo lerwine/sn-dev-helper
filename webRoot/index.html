@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ServiceNow Helper Site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular-csp.css" integrity="sha512-f7WVHp6iaZ7iOx9duYm67KLwCFJ9KirfMIK0MAOxf1wq5M8Ogdw5ljbCxlk/BtWIbyXWMsIaDaqwUpXttPQ/5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-color-picker/3.4.8/angularjs-color-picker.css" integrity="sha512-inDYR1ylzyP7EvSPhaiA76Sqgsj6o8hubU5xodP3rdxXFcHD/ArBd7AQgX4wHDKG+C4QMPddfKGKJkDcBmmtkA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.css" integrity="sha512-Fxj/xUyzF1sPpG8bmkIT/Rh4tAHwPn3roK9DwsoBoglSt2tfNpYWF+vWiwVw0SVhXVEjxmdDwkCzD/wtFOIAUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-datepicker/2.1.23/angular-datepicker.css" integrity="sha512-+naChGyL5WF0NADnLIbo2E7W9vW9qdz+H2YGpAQWwdvaiWXdeKuWgGMkofZO6Maly902smOa+6laE6Tm3z8LXw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="lib/style.css" type="text/css" />
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.js" integrity="sha512-klc+qN5PPscoGxSzFpetVsCr9sryi2e2vHwZKq43FdFyhSAa7vAqog/Ifl8tzg/8mBZiG2MAKhyjH5oPJp65EA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.8.3/angular-resource.js" integrity="sha512-HdD+nFlaO+1v1J/2lkX/tTAO4/xPrtx8mItmkkpXm48pRzQPMFfBof+clPLBaWdJBD5Qf8x+geQgMFUr5edyiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.js" integrity="sha512-tfrAMEcgRMbx1MeQrt2H/TrwaKG+m0ngUQ7R+hM9ZLD3SbwAvXsL1p0DwbTwv05EfES22HtfIged4iuHqmWYsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-color-picker/3.4.8/angularjs-color-picker.js" integrity="sha512-fSPq4g12RJ+Vxqw58AP52+APPrc8XPyv2uPPBkODzQK7Hon85xsFxuE0aWDepq9GjY0lryEg0tO0tmA3/r5Z2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-datepicker/2.1.23/angular-datepicker.js" integrity="sha512-RLwBgjzqq3nMj/IVfUH0VqOOJkdXqHGDIXFAqP4U+D0Wkb1KYwzAZH3KnRsDU4d9PKALXxdf9DsLb71uMfu3lQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  <script type="text/javascript" src="lib/script.js"></script>
+  <script type="text/javascript">
+    angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+  </script>
+  <style>
+    
+  </style>
+</head>
+
+<body ng-app="snHelper" ng-cloak>
+  <div ng-controller="MainController">
+    <!-- <div ng-view></div>
+ -->
+    <hr />
+
+    <pre>$location.path() = {{$location.path()}}</pre>
+    <pre>$route.current.templateUrl = {{$route.current.templateUrl}}</pre>
+    <pre>$route.current.params = {{$route.current.params}}</pre>
+    <pre>$route.current.scope.name = {{$route.current.scope.name}}</pre>
+    <pre>$routeParams = {{$routeParams}}</pre>
+  </div>
+</body>
+
+</html>
